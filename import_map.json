@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "buffer": "https://deno.land/std@0.216.0/io/buffer.ts",
+    "colors": "https://deno.land/std@0.216.0/fmt/colors.ts",
+    "datetime": "https://deno.land/std@0.216.0/datetime/mod.ts",
+    "print": "https://deno.land/std@0.216.0/fmt/printf.ts",
+    "oak": "https://deno.land/x/oak@v14.0.0/mod.ts"
+  }
+}

@@ -1,2 +1,3 @@
-# deno-xp
+# Deno XP
+
 Project template with Deno

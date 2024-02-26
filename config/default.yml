@@ -1,0 +1,32 @@
+cluster:
+  workers: 0
+heapTotalMaxPercent: 80
+redis:
+  host: 127.0.0.1
+  port: 6379
+  reconnectAfter: 3000
+  keyPrefix: 'okapi-dev:'
+server:
+  listen:
+    port: 3101
+  gitVersion: true
+  trustProxy: 127.0.0.1
+  maxRequestSize: 102400 # 100Mo
+  hsts: 31536000
+  #  proxy: # To enable HTTP proxy
+  #    address: ip or fqdn
+  #    port: proxy port
+  #    protocol: Proxy protocal ('http' or 'https')
+  #    username: proxy login
+  #    pass: proxy password
+versionName: Moscow
+codePluginCache: 60
+prefix:
+  systemEvents: events-system
+  logRequestPrefix: events
+log:
+  level: info
+  name: Fastify-GW
+systemMonitor: ~
+excludesHeadersEncode:
+  - soapaction

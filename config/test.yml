@@ -1,0 +1,11 @@
+log:
+  level: off
+redis:
+  keyPrefix: 'okapi-test:'
+server:
+  listen:
+    path: /tmp/node.okapi-api.sock
+    port: ~
+  maxRequestSize: 1024
+codePluginCache: 1
+systemMonitor: true

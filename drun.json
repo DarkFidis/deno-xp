@@ -1,0 +1,10 @@
+{
+  "entryPoint": "src/main/index.ts",
+  "cwd": "./",
+  "runtimeOptions": [
+    "--allow-env",
+    "--allow-net",
+    "--allow-read",
+    "--allow-sys"
+  ]
+}

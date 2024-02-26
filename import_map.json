@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "config": "npm:config@3.3.11",
+    "fastify": "npm:fastify@4.24.3",
+    "fastify-cookie": "npm:@fastify/cookie@9.3.1",
+    "fastify-form": "npm:@fastify/formbody@7.4.0",
+    "lodash": "https://cdn.skypack.dev/lodash-es?dts",
+    "path": "https://deno.land/std@0.217.0/path/mod.ts",
+    "winston": "npm:winston@3.11.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cluster": {
+    "workers": {
+      "__name": "CLUSTER_WORKERS",
+      "__format": "json"
+    }
+  },
+  "log": { "level": "LOG_LEVEL" },
+  "redis": {
+    "host": "REDIS_HOST",
+    "port": {
+      "__name": "REDIS_PORT",
+      "__format": "json"
+    }
+  },
+  "server": {
+    "baseUrl": "BASE_URL",
+    "listen": {
+      "port": {
+        "__name": "PORT",
+        "__format": "json"
+      }
+    }
+  }
+}
